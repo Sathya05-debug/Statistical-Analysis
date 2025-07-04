@@ -52,9 +52,9 @@ This repository contains statistical analysis performed on a cleaned dataset of 
 
 | Test                     | Outcome                                                                 |
 |--------------------------|-------------------------------------------------------------------------|
-| One-Sample t-Test        | ✅ Toyota resale price is significantly different from ₹12,400          |
-| Two-Way ANOVA            | ✅ Body type and transmission affect resale price of black cars         |
-| Chi-Square Test          | ✅ Toyota's color distribution significantly differs from overall market |
+| **One-Sample t-Test**    | ❌ **Fail to reject null hypothesis**: Toyota resale price is **not significantly different** from ₹12,400 |
+| **Two-Way ANOVA**        | ✅ **Significant effects**: Body type, transmission, and their interaction all significantly impact resale price of black cars |
+| **Chi-Square Test**      | ✅ **Reject null hypothesis**: Toyota's color distribution is **significantly different** from the overall market |
 
 ---
 
